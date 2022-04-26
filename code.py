@@ -47,4 +47,12 @@ active_fhvs = pd.read_csv("I:\\COF\\COF\\_DA&E_\\Nikita\\Python_Projects\\testin
 
 
 
-# John - Rename body classes so that we know how many sedans there are. Final result should be a dataframe with 3 columns: industry, body_type, count 
+# John - Rename body classes so that we know how many sedans there are. 
+# Final result should be a dataframe with 3 columns: industry, body_type, count
+
+# step 1: identify body classes
+# step 2: aggregate data (count *) and groupby industry, body_type
+
+
+
+ 
