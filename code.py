@@ -55,6 +55,6 @@ vins = str(list(shl_permits.astype(str)))[1:-1]
 # step 1: identify body classes
 # step 2: aggregate data (count *) and groupby industry, body_type
 
-
+# step 3: push without updates
 
  
