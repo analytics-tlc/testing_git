@@ -41,7 +41,7 @@ active_fhvs = pd.read_csv("I:\\COF\\COF\\_DA&E_\\Nikita\\Python_Projects\\testin
 shl= active_fhvs.loc[active_fhvs['Permit License Number'].notnull()]
 shl_permits = shl['Permit License Number']
 vins = str(list(shl_permits.astype(str)))[1:-1]
-
+#test
 
 
 # Nikita - Decode that vins and return a dataframe with the vehicle info.
