@@ -86,8 +86,10 @@ for i in vins_chunks:
 # Final result should be a dataframe with 3 columns: industry, body_type, count
 
 # step 1: identify body classes
+final_df = df.groupby(['Make', 'BodyClass'])['VIN'].count().reset_index()
+final_df = final_df.rename(columns = {'BodyClass': 'body_type', 'Make':'industry', 'VIN':'count'})
+
 # step 2: aggregate data (count *) and groupby industry, body_type
 
 # step 3: push without updates
 
- 
