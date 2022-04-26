@@ -53,6 +53,6 @@ active_fhvs = pd.read_csv("I:\\COF\\COF\\_DA&E_\\Nikita\\Python_Projects\\testin
 # step 1: identify body classes
 # step 2: aggregate data (count *) and groupby industry, body_type
 
-
+# step 3: push without updates
 
  
