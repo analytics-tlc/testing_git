@@ -39,7 +39,7 @@ active_fhvs = pd.read_csv("I:\\COF\\COF\\_DA&E_\\Nikita\\Python_Projects\\testin
 # Chris - filter out everything but SHLs. SHLs are the ones that have permit number. End result should be a list shl of vins called vins
 
 shl= active_fhvs.loc[active_fhvs['Permit License Number'].notnull()]
-shl_permits = shl['Permit License Number']
+shl_permits = shl['Vehicle VIN Number']
 vins = str(list(shl_permits.astype(str)))[1:-1]
 #test
 
