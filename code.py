@@ -31,7 +31,9 @@ from requests import Session, exceptions
 
 
 # Phillip - pull all active fhvs from open data. End result of you code should be a dataframe called active_fhvs
-
+import json
+active_fhvs = pd.read_csv('https://data.cityofnewyork.us/api/views/8wbx-tsch/rows.csv?accessType=DOWNLOAD')
+#response = requests.get("https://data.cityofnewyork.us/Transportation/For-Hire-Vehicles-FHV-Active/8wbx-tsch")
 
 # using this until Phillip completes his part
 active_fhvs = pd.read_csv("I:\\COF\\COF\\_DA&E_\\Nikita\\Python_Projects\\testing_git\\data.csv")
